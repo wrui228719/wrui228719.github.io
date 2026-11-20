@@ -1,0 +1,11 @@
+{
+  "date": "2026-09-13",
+  "summary": "验证静态网页的本地预览。",
+  "entries": [
+    {
+      "note": "local-web-preview",
+      "kind": "learn",
+      "takeaway": "启动服务前先确认网站根目录。"
+    }
+  ]
+}

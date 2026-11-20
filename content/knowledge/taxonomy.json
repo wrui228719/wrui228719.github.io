@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "timezone": "Asia/Shanghai",
+  "branches": [
+    {
+      "id": "web-basics",
+      "title": "网页与部署",
+      "parent": null,
+      "description": "用静态网站练习本地预览。"
+    }
+  ]
+}

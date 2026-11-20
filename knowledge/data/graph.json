@@ -1,0 +1,42 @@
+{
+  "branches": [
+    {
+      "description": "用静态网站练习本地预览。",
+      "id": "web-basics",
+      "parent": null,
+      "title": "网页与部署"
+    }
+  ],
+  "days": [
+    {
+      "date": "2026-09-13",
+      "entries": [
+        {
+          "kind": "learn",
+          "note": "local-web-preview",
+          "takeaway": "启动服务前先确认网站根目录。"
+        }
+      ],
+      "summary": "验证静态网页的本地预览。"
+    }
+  ],
+  "demo": false,
+  "notes": [
+    {
+      "aliases": [
+        "本地 HTTP 服务"
+      ],
+      "branch": "web-basics",
+      "id": "local-web-preview",
+      "memory": [
+        "先确认目录，再启动服务。",
+        "127.0.0.1 指向访问者自己的电脑。"
+      ],
+      "related": [],
+      "summary": "在网站根目录启动服务，从 Windows 浏览器访问。",
+      "title": "在 WSL 中预览本地网页"
+    }
+  ],
+  "timezone": "Asia/Shanghai",
+  "version": 1
+}

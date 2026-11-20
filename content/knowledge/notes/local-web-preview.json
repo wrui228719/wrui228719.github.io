@@ -1,0 +1,42 @@
+{
+  "id": "local-web-preview",
+  "title": "在 WSL 中预览本地网页",
+  "branch": "web-basics",
+  "summary": "在网站根目录启动服务，从 Windows 浏览器访问。",
+  "context": "修改了首页后，怎样在自己的电脑上检查网页和样式？",
+  "aliases": [
+    "本地 HTTP 服务"
+  ],
+  "related": [],
+  "memory": [
+    "先确认目录，再启动服务。",
+    "127.0.0.1 指向访问者自己的电脑。"
+  ],
+  "sections": [
+    {
+      "title": "启动和访问",
+      "paragraphs": [
+        "在 Ubuntu 终端进入站点目录，用 pwd 确认位置，用 ls 确认有 index.html。",
+        "已有 Python 3 时，启动本地服务，在 Windows 浏览器打开 http://127.0.0.1:8000/。回到运行服务的终端按 Ctrl+C 停止。"
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "title": "预览首页",
+      "scenario": "在站点根目录验证修改后的首页。",
+      "steps": [
+        "在 Ubuntu 终端启动服务。",
+        "从 Windows 浏览器访问首页。"
+      ],
+      "code": "python3 -m http.server 8000 --bind 127.0.0.1",
+      "language": "bash",
+      "result": "浏览器显示首页，终端记录网页请求。"
+    }
+  ],
+  "recall": {
+    "question": "同学输入同样的地址，能看到我启动的网页吗？",
+    "answer": "不能直接看到。127.0.0.1 指向同学自己的电脑。"
+  },
+  "sources": []
+}
